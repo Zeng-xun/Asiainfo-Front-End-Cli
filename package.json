@@ -1,0 +1,38 @@
+{
+  "name": "asiainfo-front-end-cli",
+  "version": "1.0.0",
+  "description": "Quickly generate front-end scaffolding",
+  "main": "index.js",
+  "bin": {
+    "af": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zeng-xun/Asiainfo-Front-End-Cli.git"
+  },
+  "keywords": [
+    "Asiainfo",
+    "Cli"
+  ],
+  "author": "Asiainfo VAS Group",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zeng-xun/Asiainfo-Front-End-Cli/issues"
+  },
+  "homepage": "https://github.com/Zeng-xun/Asiainfo-Front-End-Cli#readme",
+  "dependencies": {
+    "@babel/generator": "^7.24.4",
+    "@babel/parser": "^7.24.4",
+    "@babel/traverse": "^7.24.1",
+    "chalk": "4.0",
+    "child_process": "^1.0.2",
+    "commander": "^12.0.0",
+    "figlet": "^1.7.0",
+    "fs-extra": "^11.2.0",
+    "inquirer": "^8.2.6",
+    "ora": "5.0"
+  }
+}
